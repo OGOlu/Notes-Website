@@ -109,22 +109,10 @@ hr {
   padding: 10px;
 }
 
-#first {
-  position: absolute;
-  top: 1.5rem;
-  width: 4rem;
-  height: 4rem;
-  left: 43.8rem;
-}
-
-#second {
-  position: absolute;
-  top: 21.55rem;
-  width: 4rem;
-  height: 4rem;
-  left: 27.5rem;
-}
-
 .container {
   background-image: linear-gradient(#FDCEDF, white);
+}
+
+.texts {
+  font-family: "Short Stack";
 }
