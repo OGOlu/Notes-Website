@@ -1,0 +1,132 @@
+*,
+body {
+  position: relative;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 70px;
+  background-color: #F9F5F6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #101010;
+  color: #F9F5F6;
+}
+
+h2 {
+  /* font-size: 20px; */
+  font-family: "Short Stack";
+}
+
+.search input {
+  padding: 10px;
+}
+
+.search button {
+  padding: 10px 12px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  color: #F9F5F6;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  padding: 30px 200px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Short Stack";
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: #F8E8EE;
+  border: 1px solid #F8E8EE;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+label {
+  font-size: 20px;
+  font-family: "Short Stack";
+  display: block;
+  margin-bottom: 5px;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 2px;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+}
+
+.control {
+  margin-bottom: 10px;
+}
+
+.addNote {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #F2BED1;
+  cursor: pointer;
+  font-weight: 400;
+  color: #F9F5F6;
+}
+
+.Reset {
+  background-color: #F2BED1;
+  border: none;
+  border-radius: 3px;
+  color: #F9F5F6;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.notes-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.note {
+  width: 310px;
+  background-color: #FDCEDF;
+  padding: 10px;
+}
+
+#first {
+  position: absolute;
+  top: 1.5rem;
+  width: 4rem;
+  height: 4rem;
+  left: 43.8rem;
+}
+
+#second {
+  position: absolute;
+  top: 21.55rem;
+  width: 4rem;
+  height: 4rem;
+  left: 27.5rem;
+}
+
+#dolphin {
+  position: absolute;
+  top: 21.55rem;
+  right: 1rem;
+}
