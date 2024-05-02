@@ -124,3 +124,7 @@ hr {
   height: 4rem;
   left: 27.5rem;
 }
+
+.container {
+  background-image: linear-gradient(#FDCEDF, white);
+}

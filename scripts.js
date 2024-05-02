@@ -24,7 +24,7 @@ button.addEventListener("click", (e) => {
      <div class="note">
      <h2>${note.title}</h2>
      <p>${note.description}</p>
-     <button id="${index}" onClick="deleteNode(this.id)">Delete</button>
+     <button id="${index}" onClick="deleteNode(this.id)">Delete 🗑</button>
    </div>
      `;
      });
